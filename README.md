@@ -1,36 +1,38 @@
 <div align="center">
+  <img src="logo.png" alt="sandbox-ios" width="200"/>
 
-# sandbox-ios
+  # sandbox-ios
 
-[![Swift](https://img.shields.io/badge/Swift-5.9-F05138.svg?logo=swift&logoColor=white)](https://swift.org)
-[![iOS](https://img.shields.io/badge/iOS-17.0+-007AFF.svg?logo=apple&logoColor=white)](https://developer.apple.com/ios/)
-[![Xcode](https://img.shields.io/badge/Xcode-15+-147EFB.svg?logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  [![Swift](https://img.shields.io/badge/Swift-5.9-F05138.svg?style=flat&logo=swift&logoColor=white)](https://swift.org)
+  [![iOS](https://img.shields.io/badge/iOS-17.0+-007AFF.svg?style=flat&logo=apple&logoColor=white)](https://developer.apple.com/ios/)
+  [![Xcode](https://img.shields.io/badge/Xcode-15+-147EFB.svg?style=flat&logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
 
-**A minimal SwiftUI sandbox for rapid iOS experimentation and prototyping**
+  **Skip the boilerplate and start building iOS apps in seconds**
 
 </div>
 
 ## Overview
 
-Skip the boilerplate and start building. This lightweight iOS starter gives you a clean SwiftUI foundation for testing concepts, exploring new APIs, and prototyping features without project setup overhead.
+A minimal SwiftUI starter for rapid iOS experimentation. Open in Xcode and run immediately - no configuration, no setup ceremony, just a clean foundation for testing concepts and prototyping features.
 
 ## Features
 
-- **Zero configuration** - Open in Xcode and run immediately
-- **Modern SwiftUI** - Uses `@main` app lifecycle and latest Swift features
-- **iOS 17+ ready** - Target the latest platform capabilities
-- **Minimal footprint** - Just the essentials, nothing more
+- **Zero configuration** - Clone, open, run. That's it.
+- **Modern SwiftUI** - `@main` app lifecycle with latest Swift 5.9 features
+- **iOS 17+ ready** - Target the newest platform capabilities out of the box
+- **Minimal footprint** - Just the essentials, add what you need
 
 ## Quick Start
 
-**Option 1: Xcode**
 ```bash
 open HelloWorld/HelloWorld.xcodeproj
 ```
-Then press `⌘R` to build and run.
 
-**Option 2: Command Line**
+Press `Cmd+R` to build and run.
+
+### Command Line Build
+
 ```bash
 xcodebuild -project HelloWorld/HelloWorld.xcodeproj \
   -scheme HelloWorld \
@@ -63,14 +65,11 @@ HelloWorld/
 ```bash
 # Debug build for simulator
 xcodebuild -project HelloWorld/HelloWorld.xcodeproj \
-  -scheme HelloWorld \
-  -sdk iphonesimulator \
-  -configuration Debug build
+  -scheme HelloWorld -sdk iphonesimulator -configuration Debug build
 
 # Release build
 xcodebuild -project HelloWorld/HelloWorld.xcodeproj \
-  -scheme HelloWorld \
-  -configuration Release build
+  -scheme HelloWorld -configuration Release build
 
 # Clean
 xcodebuild -project HelloWorld/HelloWorld.xcodeproj \

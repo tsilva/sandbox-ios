@@ -8,7 +8,7 @@
   [![Xcode](https://img.shields.io/badge/Xcode-15+-147EFB.svg?style=flat&logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
 
-  **🚀 Skip the boilerplate and start building iOS apps in seconds**
+  **🚀 Skip the boilerplate and start building iOS apps in seconds 📱**
 
 </div>
 

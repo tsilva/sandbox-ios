@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="sandbox-ios" width="512"/>
+  <img src="https://raw.githubusercontent.com/tsilva/sandbox-ios/main/logo.png" alt="sandbox-ios" width="512"/>
 
   # sandbox-ios
 

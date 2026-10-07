@@ -1,16 +1,15 @@
-<div align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/tsilva/sandbox-ios/main/logo.png" alt="sandbox-ios" width="512"/>
+  <br />
+  <!-- repo-tagline:start -->
+  <strong>🚀 Skip the boilerplate and start building iOS apps in seconds 📱</strong>
+  <!-- repo-tagline:end -->
+</p>
 
-  # sandbox-ios
-
-  [![Swift](https://img.shields.io/badge/Swift-5.9-F05138.svg?style=flat&logo=swift&logoColor=white)](https://swift.org)
+[![Swift](https://img.shields.io/badge/Swift-5.9-F05138.svg?style=flat&logo=swift&logoColor=white)](https://swift.org)
   [![iOS](https://img.shields.io/badge/iOS-17.0+-007AFF.svg?style=flat&logo=apple&logoColor=white)](https://developer.apple.com/ios/)
   [![Xcode](https://img.shields.io/badge/Xcode-15+-147EFB.svg?style=flat&logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
-
-  **🚀 Skip the boilerplate and start building iOS apps in seconds 📱**
-
-</div>
 
 ## Overview
 
